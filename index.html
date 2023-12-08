@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      height: auto;
+      width: 100%;
+      background-color: lightblue;
+    }
+
+    .container {
+      width: 280px;
+      height: 450px;
+      border-radius: 20px;
+      margin: 20px auto;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 15px;
+      background-color: white;
+    }
+
+    img {
+      width: 250px;
+      height: 250px;
+      margin-left: 16px;
+      margin-top: 15px;
+      border-radius: 10px;
+    }
+
+    .code .text {
+      text-align: center;
+      margin-top: 30px;
+      color: hsl(218, 44%, 22%);
+    }
+
+    .code .text span {
+      font-size: medium;
+      font-weight: 700;
+      color: hsl(220, 15%, 55%);
+    }
+
+    .attribution {
+      margin-top: 20px;
+    }
+
+    @media screen and (max-width: 375px) {
+      body {
+        width: 100%;
+        height: auto;
+        background-color: lightblue;
+      }
+      
+      .container {
+      width: 230px;
+      height: 360px;
+      border-radius: 20px;
+      margin-left: 18%;
+      margin-top: 8%; 
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 15px;
+      background-color: white;
+      }
+
+      img {
+      width: 190px;
+      height: 190px;
+      margin-left: 20px;
+      margin-top: 15px;
+      border-radius: 10px;
+    }
+
+    .attribution{
+      margin-left: 10px;
+      margin-right: 20px;
+      margin-top: 10px;
+    }
+    
+    }
+    
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <div class="code">
+    <img src="images/image-qr-code.png" alt="QR code">
+
+    <div class="text">
+      <p><h3>Improve your front-end <br> skills by building projects</h3></p>
+      <br>
+      <span><p><h6>Scan the QR code to visit Frontend <br> Mentor and take your coding skills to <br> the next level.</h6></p></span>
+    </div>
+
+  </div>
+  
+</div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Jeffrey Jojo Eshun</a>.
+  </div>
+</body>
+</html>
